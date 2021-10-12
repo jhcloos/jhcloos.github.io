@@ -6,6 +6,13 @@
   <link rel="icon" href="git-favicon.png" />
   <link rel="stylesheet" type="text/css" href="layout.css" />
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  
+  <script>
+   const date = new Date()
+   const year = date.getUTCFullYear() // this gives you the current year
+   document.getElementById("footer").innerHTML = `Page Design Copyright © 2004 - ${year} James Cloos.`
+  </script>
+  
  </head>
  <body>
   <div id="container">
@@ -22,7 +29,7 @@
      </li>
     </ol>
    </div>
-   <div id="footer">· <a href="copyright/">Page Design Copyright © 2004-2020 James Cloos</a> ·</div>
+   <div id="footer"></div>
   </div>
  </body>
 </html>
