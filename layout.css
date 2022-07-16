@@ -1,79 +1,51 @@
-body { 
-       background: rgb(16, 78, 139);
-       color: black;
-       margin: 0;
-       padding: 0;
-       font-family: "Lucida Bright", "Lucida Grande", serif;
-       }
+body {
+    background: rgb(16, 78, 139);
+    font-family: "Lucida Bright", "Lucida Grande", serif;
+}
 
-div { 
-      border: 0px solid #335;
-      }
+h4 {
+    color: rgb(25, 25, 112);
+    margin: 5px 20px;
+}
 
-p { 
-    margin: 1em 0;
-    padding: 0;
-    }
+.container {
+    width: 95%;
+    max-width: 620px;
+    border: 4px solid rgb(255, 185, 15);
+    margin: 40px auto;
+    background-color: white;
+    padding: 25px 5px 5px;
+}
 
-li {
-    margin: 0.25em 0;
-    }
+.container img {
+    width: 90%;
+    padding: 3px;
+}
 
-ul { margin: 0.25em 0; }
-ol { margin: 0.25em 0; }
+.banner {
+    text-align: center;
+}
 
-.centered {
-	   text-align: center;
-          }
+.red-line {
+    background-color: red;
+    width: 95%;
+    height: 4px;
+    margin: 2px auto 6px;
+}
 
-h2 {
-     color: rgb(25, 25, 112);
- }
+.content ol {
+    margin: 7px;
+}
 
-h3 { 
-     color: rgb(25, 25, 112);
- }
+.content li {
+    margin: 10px 4px;
+    font-size: small;
+}
 
-h4 { color: rgb(25, 25, 112); }
-
-#container {
-             width: 640px;
-             width: 660px;
-             w\idth: 640px;
-             border: 4px solid rgb(255, 185, 15);
-             margin: 18px;
-             margin-left: auto;
-             margin-right: auto;
-             padding: 0px;
-             }
-
-#banner {
-          padding: 2px;
-          margin-bottom: 0px;
-          background: white center no-repeat fixed;
-          text-align: center;
-          }
-
-#content {
-           padding: 5px;
-           margin-left: auto;
-           margin-right: auto;
-           background-color: white;
-           }
-
-#footer {
-          clear: both;
-          padding: 5px;
-          margin-top: 0px;
-          background-color: white;
-          text-align: center;
-          font-family: "Lucida Sans Unicode", "Lucida Grande", serif;
-          font-size: 50%;
-          }
-#ipv6 {
-          clear: both;
-          padding: 5px;
-          margin-top: 0px;
-          background-color: white;
-          text-align: center;
-          }
+.footer {
+    clear: both;
+    padding: 5px;
+    text-align: center;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", serif;
+    font-size: 60%;
+}
